@@ -1,6 +1,6 @@
 # Pull Request
 
-**Please feel free to delete the sections of this template that do not apply to your pull request**
+**Please feel free to delete the sections of this template that do not apply to your pull request, you can even delete this if you so desire**
 
 ## Description
 
