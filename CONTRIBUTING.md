@@ -25,7 +25,7 @@ This repository contains a tutorial for learning Vim and NeoVim. We aim to provi
 
 - Fork this repository.
 - Clone your forked repository to your local machine.
-- Set up your development environment following the instructions in the `README.md` file.
+- Please refer to this guide for more information on how to contribute to the repository.
 
 ## How to Contribute
 
@@ -54,7 +54,7 @@ We welcome contributions in the form of code improvements, bug fixes, or new fea
 1. Create a new branch with a descriptive name.
 2. Make your changes, ensuring adherence to the [style guide](#style-guide).
 3. Test your changes thoroughly.
-4. Create a pull request with a clear title and description of your changes.
+4. Create a pull request with a clear title and description of your changes, or just follow the provided pull request template.
 
 ### Documentation
 
@@ -71,7 +71,7 @@ Please follow these guidelines when contributing code:
 
 ## Code of Conduct
 
-Please note that this project adheres to the [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report any unacceptable behavior to [maintainer-email@example.com](mailto:maintainer-email@example.com).
+Please note that this project adheres to the [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report any unacceptable behavior to [richard@richardcallaby.com](mailto:richard@richardcallaby.com).
 
 ## License
 
