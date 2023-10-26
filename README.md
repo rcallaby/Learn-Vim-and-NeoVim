@@ -38,3 +38,16 @@ The Vim and NeoVim communities are vibrant and supportive. A plethora of tutoria
 # Conculsion
 
 In the fast-paced world of software development, efficiency and productivity are paramount. Vim and NeoVim stand as powerful tools to enhance a developer's workflow. By investing time in learning and mastering these editors, software developers can unlock a new level of speed, efficiency, and control in their coding endeavors. The benefits extend far beyond the confines of the editor, enriching a developer's overall skill set and enabling them to tackle complex tasks with confidence and precision.
+
+### Table of Contents
+- Part 01 - Enter and Exit Vim
+- Part 02 - Navigating in Vim
+- Part 03 - Vim Modes
+- Part 04 - Registers and Macros
+- Part 05 - Search and Replace
+- Part 06 - Buffers, Windows, and Tabs
+- Part 07 - Git and Vim
+- Part 08 - Navigating Large Files
+- Part 09 - Workflows and Best Practices
+- Part 10 - Advanced Editing
+- Part 11 - Vim Plugins Development
