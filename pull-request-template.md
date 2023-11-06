@@ -21,14 +21,10 @@
 
 **Please delete the options below that don't apply to this pull request**
 
-- [ ] I have read the [CONTRIBUTING guidelines](CONTRIBUTING.md) and followed them.
+- [ ] I have read the [CONTRIBUTING guidelines](https://github.com/rcallaby/Learn-Vim-and-NeoVim/blob/main/CONTRIBUTING.md) and followed them.
 - [ ] My code follows the style and conventions of this project.
 - [ ] I have added appropriate comments and documentation to my code.
-- [ ] I have written unit tests for my code (if applicable).
-- [ ] All new and existing tests passed.
-- [ ] My changes do not introduce any linting errors.
-- [ ] I have updated the documentation if necessary.
-- [ ] I have tested my changes locally.
+
 
 ## Screenshots (if applicable)
 
