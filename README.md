@@ -1,7 +1,5 @@
 # Learn-Vim-and-NeoVim
 
-## Introduction
-
 In the realm of text editors, Vim and its modern incarnation, NeoVim, stand as stalwarts of efficiency and versatility. Initially released in the early 90s, Vim has become a cornerstone tool for software developers, system administrators, and other tech professionals. NeoVim, a fork of Vim with a focus on extensibility and usability, has gained traction in recent years, providing a fresh take on this venerable tool. In this article, we'll explore the myriad benefits of learning and mastering Vim and NeoVim for software development.
 
 ### Speed and Efficiency
@@ -51,3 +49,5 @@ In the fast-paced world of software development, efficiency and productivity are
 - [Part 09 - Workflows and Best Practices](https://github.com/rcallaby/Learn-Vim-and-NeoVim/blob/main/Lessons/Part-09-Workflows-and-Best-Practices/workflows.md)
 - [Part 10 - Advanced Editing](https://github.com/rcallaby/Learn-Vim-and-NeoVim/blob/main/Lessons/Part-10-Advanced-Editing/advancedediting.md)
 - [Part 11 - Vim Plugins Development](https://github.com/rcallaby/Learn-Vim-and-NeoVim/blob/main/Lessons/Part-11-Vim-Plugins-Development/vimplugsins.md)
+- [Part 12 - Installing LazyVim in NeoVim](https://github.com/rcallaby/Learn-Vim-and-NeoVim/blob/main/Lessons/Part-12-Installing-Lazyvim-NeoVim/installing-lazyvim.md)
+- [Part 13 - Installing AstroVim](https://github.com/rcallaby/Learn-Vim-and-NeoVim/blob/main/Lessons/Part-13-Installing-AstroVim/astrovim.md)
