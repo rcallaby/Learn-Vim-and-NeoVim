@@ -51,3 +51,4 @@ In the fast-paced world of software development, efficiency and productivity are
 - [Part 11 - Vim Plugins Development](https://github.com/rcallaby/Learn-Vim-and-NeoVim/blob/main/Lessons/Part-11-Vim-Plugins-Development/vimplugsins.md)
 - [Part 12 - Installing LazyVim in NeoVim](https://github.com/rcallaby/Learn-Vim-and-NeoVim/blob/main/Lessons/Part-12-Installing-Lazyvim-NeoVim/installing-lazyvim.md)
 - [Part 13 - Installing AstroVim](https://github.com/rcallaby/Learn-Vim-and-NeoVim/blob/main/Lessons/Part-13-Installing-AstroVim/astrovim.md)
+- [Part 14 - Using Lua in NeoVIM](https://github.com/rcallaby/Learn-Vim-and-NeoVim/blob/main/Lessons/Part-14-Using-Lua-In-NeoVIM/usingLua.md)
