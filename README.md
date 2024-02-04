@@ -52,3 +52,4 @@ In the fast-paced world of software development, efficiency and productivity are
 - [Part 12 - Installing LazyVim in NeoVim](https://github.com/rcallaby/Learn-Vim-and-NeoVim/blob/main/Lessons/Part-12-Installing-Lazyvim-NeoVim/installing-lazyvim.md)
 - [Part 13 - Installing AstroVim](https://github.com/rcallaby/Learn-Vim-and-NeoVim/blob/main/Lessons/Part-13-Installing-AstroVim/astrovim.md)
 - [Part 14 - Using Lua in NeoVIM](https://github.com/rcallaby/Learn-Vim-and-NeoVim/blob/main/Lessons/Part-14-Using-Lua-In-NeoVIM/usingLua.md)
+- [Part 15 - Using nvChad in NeoVIM](https://github.com/rcallaby/Learn-Vim-and-NeoVim/blob/main/Lessons/Part-15-Using-nvChad-in-NeoVIM/nvchad.md)
