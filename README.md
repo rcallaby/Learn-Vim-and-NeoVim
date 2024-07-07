@@ -53,3 +53,11 @@ In the fast-paced world of software development, efficiency and productivity are
 - [Part 13 - Installing AstroVim](https://github.com/rcallaby/Learn-Vim-and-NeoVim/blob/main/Lessons/Part-13-Installing-AstroVim/astrovim.md)
 - [Part 14 - Using Lua in NeoVIM](https://github.com/rcallaby/Learn-Vim-and-NeoVim/blob/main/Lessons/Part-14-Using-Lua-In-NeoVIM/usingLua.md)
 - [Part 15 - Using nvChad in NeoVIM](https://github.com/rcallaby/Learn-Vim-and-NeoVim/blob/main/Lessons/Part-15-Using-nvChad-in-NeoVIM/nvchad.md)
+
+## Serving locally
+* Install [`mdbook`](https://rust-lang.github.io/mdBook/guide/installation.html)
+* Execute the following command:
+```
+mdbook serve -p 8080
+```
+* Open [http://127.0.0.1:8080](http://127.0.0.1:8080)

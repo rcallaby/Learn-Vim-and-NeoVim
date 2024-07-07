@@ -1,0 +1,6 @@
+[book]
+authors = ["Richard Callaby", "BiswajitThakur"]
+language = "en"
+multilingual = false
+src = "Lessons"
+title = "Learn-Vim-and-NeoVim"
