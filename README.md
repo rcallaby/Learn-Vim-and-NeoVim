@@ -53,6 +53,8 @@ In the fast-paced world of software development, efficiency and productivity are
 - [Part 13 - Installing AstroVim](https://github.com/rcallaby/Learn-Vim-and-NeoVim/blob/main/Lessons/Part-13-Installing-AstroVim/astrovim.md)
 - [Part 14 - Using Lua in NeoVIM](https://github.com/rcallaby/Learn-Vim-and-NeoVim/blob/main/Lessons/Part-14-Using-Lua-In-NeoVIM/usingLua.md)
 - [Part 15 - Using nvChad in NeoVIM](https://github.com/rcallaby/Learn-Vim-and-NeoVim/blob/main/Lessons/Part-15-Using-nvChad-in-NeoVIM/nvchad.md)
+- [Part-16 - Kickstart-NeoVIM](https://github.com/rcallaby/Learn-Vim-and-NeoVim/blob/main/Lessons/Part-16-Kickstart-NeoVIM/kickstart-neovim.md)
+- [Part-17 - Installing-LunarVIM](https://github.com/rcallaby/Learn-Vim-and-NeoVim/blob/main/Lessons/Part-17-Installing-LunarVim/lunarvim.md)
 
 ## Serving locally
 * Install [`mdbook`](https://rust-lang.github.io/mdBook/guide/installation.html)

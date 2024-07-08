@@ -15,3 +15,5 @@
 - [Installing AstroVim](Part-13-Installing-AstroVim/astrovim.md)
 - [Using Lua in NeoVIM](Part-14-Using-Lua-In-NeoVIM/usingLua.md)
 - [Using nvChad in NeoVIM](Part-15-Using-nvChad-in-NeoVIM/nvchad.md)
+- [Kickstart-NeoVIM](Part-16-Kickstart-NeoVIM/kickstart-neovim.md)
+- [Installing-LunarVIM](Part-17-Installing-LunarVim/lunarvim.md)
