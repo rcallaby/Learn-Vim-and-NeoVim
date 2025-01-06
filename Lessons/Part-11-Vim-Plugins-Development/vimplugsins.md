@@ -576,12 +576,102 @@ end
 nnoremap <leader>x :echo "Normal and Insert Mode"<CR>
 inoremap <leader>x <Esc>:echo "Normal and Insert Mode"<CR>
 ```
-
 ### Step 2.4: Test Mode-specific Mappings
-1. Switch to the desired mode (e.g., `Esc` for Normal, `i` for Insert).
-2. Trigger the mapping by pressing the assigned keys.
-3. Ensure the desired action is performed only in the intended mode.
 
+Mode-specific mappings in Vim allow you to define actions that are only triggered in a particular mode (e.g., Normal, Insert, Visual). Testing these mappings is essential to ensure they behave correctly and do not conflict with other mappings. Follow these detailed steps to thoroughly test mode-specific mappings:
+
+---
+
+#### **1. Verify the Mapping Definition**
+Before testing, double-check that the mapping has been correctly defined in your plugin or `.vimrc`. For instance:
+- **Normal mode mapping**: Use `nnoremap` to define mappings that only apply in Normal mode.
+- **Insert mode mapping**: Use `inoremap` for Insert mode-specific mappings.
+- **Visual mode mapping**: Use `vnoremap` for Visual mode-specific mappings.
+
+Example:
+```vim
+" Normal mode mapping for saving a file
+nnoremap <leader>s :w<CR>
+
+" Insert mode mapping for moving to Normal mode
+inoremap <C-o> <Esc>
+
+" Visual mode mapping for copying selected text
+vnoremap <leader>y "+y
+```
+
+Ensure the appropriate `noremap` variant is used to avoid recursive mapping issues.
+
+---
+
+#### **2. Switch to the Desired Mode**
+- Open Vim and navigate to the relevant buffer or file where you want to test the mappings.
+- Switch to the mode for the mapping:
+  - **Normal mode**: Press `Esc` until you are in Normal mode.
+  - **Insert mode**: Press `i` or `a` to enter Insert mode.
+  - **Visual mode**: Press `v` or `V` to enter Visual mode.
+
+---
+
+#### **3. Trigger the Mapping**
+- **Normal mode**: Press the key sequence defined for the mapping (e.g., `<leader>s` for saving).
+- **Insert mode**: While in Insert mode, press the key sequence (e.g., `<C-o>` to switch to Normal mode).
+- **Visual mode**: Highlight text, then press the key sequence (e.g., `<leader>y` for copying).
+
+---
+
+#### **4. Observe the Behavior**
+For each mode-specific mapping, ensure the action performs as expected:
+1. **In the intended mode**: Verify that the mapping executes the desired action only in the defined mode.
+2. **In other modes**: Confirm the mapping does not trigger in unintended modes.
+
+Example:
+- `<leader>s` should save the file in Normal mode but do nothing in Insert or Visual modes.
+- `<C-o>` should switch to Normal mode when pressed in Insert mode but remain unresponsive in Normal or Visual modes.
+- `<leader>y` should copy selected text only in Visual mode.
+
+---
+
+#### **5. Handle Conflicts**
+If the mapping behaves incorrectly or conflicts with other mappings:
+- Check for duplicate or conflicting mappings using `:verbose map` or mode-specific variants (e.g., `:verbose nmap`, `:verbose imap`).
+- If another plugin is overriding the mapping, consider namespacing your mappings (e.g., use a unique `<leader>` prefix).
+
+Example:
+```vim
+" Namespace mappings to avoid conflicts
+nnoremap <leader>pns :echo "Plugin-specific action"<CR>
+```
+
+---
+
+#### **6. Automate Tests for Plugin Development**
+For plugin developers, consider automating these tests using a Vim testing framework such as [vim-testbed](https://github.com/tpope/vim-dispatch) or [vader.vim](https://github.com/junegunn/vader.vim). Create test cases to verify mode-specific behavior:
+```vim
+" Test case example for Vader.vim
+Execute (normal)
+:normal <leader>s
+Expect
+  * Saved successfully
+
+Execute (insert)
+:normal i<C-o>
+Expect
+  * Switched to Normal mode
+```
+
+---
+
+#### **7. Document the Mappings**
+Clearly document mode-specific mappings in your plugin's README or help files. Include usage instructions and examples so users know which modes they apply to.
+
+Example documentation snippet:
+```vim
+## Mode-specific Mappings
+- `<leader>s`: Save the current file (Normal mode).
+- `<C-o>`: Exit Insert mode (Insert mode).
+- `<leader>y`: Copy selected text (Visual mode).
+```
 ---
 
 ### Step 2.5: Debugging and Troubleshooting
